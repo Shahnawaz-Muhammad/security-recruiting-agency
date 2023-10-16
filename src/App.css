@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 } */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: "";
+  color: #e45f4e;
+}
+

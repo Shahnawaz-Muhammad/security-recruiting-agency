@@ -1,14 +1,14 @@
-import './App.css'
+import "./App.css";
+import Header from "./components/header";
+import Home from "./pages/home";
 
 function App() {
-  
   return (
     <>
-      <div className="text-5xl text-green-600">
-        hello
-      </div>
+      <Header />
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
