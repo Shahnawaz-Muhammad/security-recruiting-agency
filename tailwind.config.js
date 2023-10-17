@@ -15,7 +15,6 @@ export default {
 
         xl: "1280px",
         // => @media (min-width: 1280px) { ... }
-
         "2xl": "1460px",
       },
       colors: {
@@ -23,8 +22,15 @@ export default {
         white: "#fff",
         primary: "#262626",
         secondary: "#E45F4E",
+        lightGray: "#848484",
+        bgLight: "#f4f4f4"
+        
 
-      }
+      },
+      fontFamily: {
+        'raleway': ['Raleway', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif']
+      },
     },
   },
   plugins: [],
