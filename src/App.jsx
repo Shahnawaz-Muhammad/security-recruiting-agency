@@ -1,14 +1,16 @@
-import './App.css'
+import "./App.css";
+import Contact from "./pages/contact";
+import Home from "./pages/home";
 
 function App() {
-  
   return (
     <>
-      <div className="text-5xl text-green-600">
-        hello
+      <div className="">
+        <Home />
+        <Contact />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
