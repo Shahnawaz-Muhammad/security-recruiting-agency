@@ -5,11 +5,10 @@ import Ourwork from "../../components/ourwork";
 const Home = () => {
   return (
     <div>
+      <Hero />
       <Services />
       <Ourwork />
       <Testimonials />
-    </div>
-  );
-};
-
-export default Home;
+</div>
+)}
+export default Home

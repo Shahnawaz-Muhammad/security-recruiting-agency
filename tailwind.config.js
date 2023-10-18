@@ -15,6 +15,10 @@ export default {
 
         xl: "1280px",
         // => @media (min-width: 1280px) { ... }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6a1ae95df4dddbfec789869678f97393c6608126
         "2xl": "1460px",
       },
       colors: {
@@ -22,6 +26,7 @@ export default {
         white: "#fff",
         primary: "#262626",
         secondary: "#E45F4E",
+<<<<<<< HEAD
         lightGray: "#848484",
         bgLight: "#f4f4f4"
         
@@ -35,3 +40,11 @@ export default {
   },
   plugins: [],
 };
+=======
+
+      }
+    },
+  },
+  plugins: [],
+};
+>>>>>>> 6a1ae95df4dddbfec789869678f97393c6608126
