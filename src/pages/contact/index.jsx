@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -82,7 +82,7 @@ export default function Contact() {
 
   return (
     <div>
-      <div className="  text-center">
+      <div className="py-10 text-center">
         <h2 className="font-bold text-2xl text-secondary">CONTACT US</h2>
         <h4 className="pt-4 font-bold text-4xl text-primary">
           CONTACT FOR ANY QUERY
@@ -104,8 +104,8 @@ export default function Contact() {
               style={{}}
             ></iframe>
           </div>
-          <div className="container px-5 py-24 mx-auto flex">
-            <div className="lg:w-1/3 md:w-1/2 bg-bgLight rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+          <div className=" px-5 py-24 mx-auto flex">
+            <div className="xl:w-1/3 md:w-1/2 bg-bgLight rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
               <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
                 Contact Us
               </h2>

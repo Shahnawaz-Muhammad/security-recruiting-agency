@@ -1,6 +1,4 @@
-import React from "react";
-
-
+import PropTypes from "prop-types";
 
 export default function Card({ card, index }) {
   return (
@@ -20,3 +18,12 @@ export default function Card({ card, index }) {
     </div>
   );
 }
+Card.propTypes = {
+  index: PropTypes.number.isRequired, // Require index as a number
+  card: PropTypes.shape({
+    imageURL: PropTypes.string.isRequired,
+    svg: PropTypes.node.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  }).isRequired,
+};
