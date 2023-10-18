@@ -89,7 +89,7 @@ export default function Contact() {
         </h4>
       </div>
 
-      <div className=" h-3/5 my-10">
+      <div className=" h-3/5 mt-10">
         <section className="text-primary body-font relative">
           <div className="absolute inset-0 bg-bgLight">
             <iframe
