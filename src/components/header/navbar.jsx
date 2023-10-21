@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+import logo from "../../assets/armstac_logo.png";
+
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
   const handleToggleNavbar = () => {
@@ -30,9 +32,8 @@ const Navbar = () => {
       </div>
       <div className="max-w-full block bg-primary  md:hidden py-1 px-4 md:px-8 lg:px-0">
         <div className="w-full flex items-center justify-between">
-          <h1 className="text-3xl font-semibold italic text-white max-w-full flex items-center">
-            Safety<span className="text-secondary">First</span>
-          </h1>
+          <img src={logo} alt="" className="w-20 md:w-24" />
+
           <button
             className="border border-gray-600 px-3 py-1"
             onClick={handleToggleNavbar}

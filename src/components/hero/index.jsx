@@ -5,10 +5,10 @@ import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import {
   BiSolidChevronLeft,
   BiSolidChevronRight,
-  BiSupport,
+  // BiSupport,
 } from "react-icons/bi";
-import { GiPoliceOfficerHead } from "react-icons/gi";
-import { FaHelmetSafety } from "react-icons/fa6";
+// import { GiPoliceOfficerHead } from "react-icons/gi";
+// import { FaHelmetSafety } from "react-icons/fa6";
 // import {  } from "react-icons/bi";
 
 import "swiper/css";
@@ -92,7 +92,7 @@ const Hero = () => {
         <div className="w-full h-full bg-black absolute top-0 left-0 "></div>
       </div>
 
-      <div className="w-full h-full flex flex-col lg:flex-row px-8 lg:px-0 py-16 lg:py-0">
+      {/* <div className="w-full h-full flex flex-col lg:flex-row px-8 lg:px-0 py-16 lg:py-0">
         <div className="w-full flex items-center justify-center p-6 lg:p-10 xl:p-16   lg:border-r">
           <div className="flex gap-4 lg:gap-8 items-center">
             <div>
@@ -109,7 +109,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        {/* <div className="w-[1rem] h-full bg-black border border-black"></div> */}
         <div className="w-full flex items-center justify-center p-6 lg:p-10 xl:p-16   lg:border-r">
           <div className="flex gap-4 lg:gap-8 items-center">
             <div>
@@ -126,8 +125,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        {/* <div className="w-[1rem] h-full bg-black border border-black"></div> */}
-
         <div className="w-full flex items-center justify-center p-6 lg:p-10 xl:p-16 ">
           <div className="flex gap-4 lg:gap-8 items-center">
             <div>
@@ -144,7 +141,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

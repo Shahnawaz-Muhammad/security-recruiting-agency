@@ -5,6 +5,8 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
+import logo from "../../assets/armstac_logo.png"
+
 const Topbar = () => {
   return (
    <>
@@ -28,9 +30,9 @@ const Topbar = () => {
     <div className="w-full  flex justify-center bg-white py-4 text-bgLight mx-auto md:px-8 xl:px-4">
     <div className="max-w-screen-2xl w-full">
       <div className="max-w-full flex  justify-center md:justify-between">
-        <h1 className="text-4xl font-semibold text-secondary max-w-full hidden md:flex items-center italic">
-          Safety<span className="text-primary">First</span>
-        </h1>
+        {/* <h1 className="text-4xl font-semibold text-secondary max-w-full hidden md:flex items-center italic"> */}
+          <img src={logo} alt="" className="w-20 md:w-24 md:block hidden"/>
+        {/* </h1> */}
 
         <div className="max-w-full text-primary flex gap-5 font-roboto">
           <div className="max-w-full flex flex-col justify-center items-center gap-1">
