@@ -3,12 +3,12 @@
 import aboutImg from "../../assets/images/about.jpg";
 const About = () => {
   return (
-    <div className="w-full  flex justify-center  bg-white text-white mx-auto px-8 xl:px-4 font-raleway pt-20">
+    <div className="w-full  flex justify-center  bg-bgLight text-white mx-auto px-8 xl:px-4 font-raleway pt-10 lg:py-20">
       <div className="max-w-screen-2xl w-full flex flex-col lg:flex-row ">
         <div className="w-full lg:w-[45%] rounded-xl">
           <img src={aboutImg} alt="" className="w-full h-full rounded-xl" />
         </div>{" "}
-        <div className="px-4 lg:px-12 w-full lg:w-[55%] h-full flex justify-center pt-10 ">
+        <div className="px-4 lg:px-12 w-full lg:w-[55%] h-full flex justify-center py-10 ">
           <div className="w-full h-full flex flex-col gap-4">
             <h2 className="text-secondary text-3xl uppercase font-semibold">
               Who We Are

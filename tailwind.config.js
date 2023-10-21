@@ -31,6 +31,9 @@ export default {
         'raleway': ['Raleway', 'sans-serif'],
         'roboto': ['Roboto', 'sans-serif']
       },
+      backgroundImage: {
+        'security-bg': "url('./src/assets/images/security-bg.jpg')",
+      }
     },
   },
   plugins: [],

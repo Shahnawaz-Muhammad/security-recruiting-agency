@@ -37,14 +37,14 @@ const WhyUs = () => {
   ];
 
   return (
-    <div className="w-full  flex justify-center  bg-white text-white mx-auto px-8 xl:px-4 font-raleway py-20">
+    <div className="w-full  flex justify-center  bg-bgLight text-white mx-auto px-8 xl:px-4 font-raleway py-20">
       <div className="max-w-screen-2xl w-full">
         <div className="flex justify-center flex-col gap-8  items-center text-secondary">
           <h1 className="text-3xl font-bold">Why Choose Us?</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {whyusData.map((data) => {
               return (
-                <div key={data.id} className="border p-4 rounded-lg flex items-start  gap-3">
+                <div key={data.id} className="border-2 border-gray-300 p-4 rounded-lg flex items-start  gap-3">
                   <div>
                   <HiMiniArrowLongRight className="text-3xl"/>
                   </div>

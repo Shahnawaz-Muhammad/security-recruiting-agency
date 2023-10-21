@@ -52,7 +52,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="w-full  flex justify-center  bg-bgLight py-20 text-white mx-auto px-8 xl:px-4">
+    <div className="w-full  flex justify-center  bg-white py-20 text-white mx-auto ">
       <div className=" w-full  flex flex-col gap-10 items-center">
         <div className="flex  flex-col text-center gap-4">
           <h2 className="font-bold text-2xl text-secondary">OUR VALUED PARTNERS</h2>
@@ -62,12 +62,12 @@ const Testimonials = () => {
         </div>
 
         <Swiper
-          slidesPerGroup={1}
-          slidesPerView={4}
+          slidesPerGroup={4}
+          slidesPerView={5}
           spaceBetween={30}
           breakpoints={{
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 5,
               spaceBetween: 20,
             },
             767: {
@@ -84,13 +84,13 @@ const Testimonials = () => {
             delay: 3000,
           }}
           modules={[Pagination, Autoplay, Navigation]}
-          className="mySwiper w-full flex bg-[#314d7a] h-60 "
+          className="mySwiper w-full flex bg-security-bg h-60 bg-no-repeat bg-cover px-10"
         >
           {testimonialsData.map((testimonial, index) => {
             return (
               <SwiperSlide key={index} className=" py-10">
                 <div className="w-full flex justify-center items-center ">
-                  <h1 className="w-60 h-32 border-4 border-white rounded-2xl p-10 text-white text-center font-bold text-2xl flex justify-center items-center">
+                  <h1 className="w-60 h-32 border bg-transparent hover:bg-white hover:bg-opacity-10 border-white rounded-lg p-10 text-white text-center font-medium text-2xl flex justify-center items-center">
                     {testimonial.company}
                   </h1>
                 </div>
