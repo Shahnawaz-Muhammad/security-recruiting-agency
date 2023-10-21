@@ -7,8 +7,8 @@ export default function Footer() {
     <footer className="bg-primary dark:bg-white py-6">
       <div className="mx-auto w-full max-w-screen-2xl ">
         <div className="lg:flex lg:justify-around ">
-          <div className="px-5 grid grid-cols-1  gap-5 md:grid-cols-3 lg:grid-cols-5 text-left">
-            <div className="md:col-span-3 lg:col-span-2 ">
+          <div className="px-5 grid grid-cols-1  gap-5 md:grid-cols-2 lg:grid-cols-4 text-left">
+            <div className="md:col-span-3 lg:col-span-2 lg:border-r-2 lg:border-white">
               <a href="#" className="flex items-center">
                 <img
                   src="https://s3.amazonaws.com/freestock-prod/450/freestock_387248035.jpg"
@@ -16,18 +16,15 @@ export default function Footer() {
                   alt="Safety First Logo"
                 />
                 <span className="self-center text-2xl font-bold whitespace-nowrap text-white italic">
-                  <a className="text-secondary ">Safety</a>First
+                  <a className="text-secondary ">ARMSTAC</a> Security
                 </span>
               </a>
-              <p className="pt-2 text-left text-white lg:pr-6">
-                Ipsum amet sed vero et lorem stet eos ut, labore sed sed stet
-                sea est ipsum ut. Volup amet ea sanct ipsum, dolore vero lorem
-                no duo eirmod. Eirmod amet ipsum no ipsum lorem clita ut. Ut sed
-                sit lorem ea lorem sed, amet stet sit sea ea diam tempor kasd
-                kasd. Diam nonumy etsit tempor ut sed diam sed et ea
+              <p className="pt-2 text-justify text-white lg:pr-6">
+              ARMSTAC Security (Pvt.) Ltd., established in 2007, is committed to providing comprehensive security services with a focus on safeguarding lives and assets. Over two decades, our experienced management team, with 20 years in the industry, has a history of providing security and logistics support, including precious cargo coverage in Congo (DRC) from 2003 to 2007.
               </p>
+              
             </div>
-            <div>
+            <div >
               <h2 className="mb-6 font-bold text-secondary uppercase dark:text-white">
                 QUICK LINKS
               </h2>
@@ -48,50 +45,6 @@ export default function Footer() {
                   <AiFillCaretRight />
                   <a href="#" className="pl-2 hover:underline">
                     Our Services
-                  </a>
-                </li>
-                <li className="mb-2 flex flex-row items-center">
-                  <AiFillCaretRight />
-                  <a href="#" className="pl-2 hover:underline">
-                    Our Team
-                  </a>
-                </li>
-                <li className="mb-2 flex flex-row items-center">
-                  <AiFillCaretRight />
-                  <a href="#" className="pl-2 hover:underline">
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h2 className="mb-6  font-bold text-secondary uppercase dark:text-white">
-                POPULAR LINKS
-              </h2>
-              <ul className="text-white dark:text-gray-400 font-medium">
-                <li className="mb-2 flex flex-row items-center">
-                  <AiFillCaretRight />
-                  <a href="#" className="pl-2 hover:underline">
-                    Home
-                  </a>
-                </li>
-                <li className="mb-2 flex flex-row items-center">
-                  <AiFillCaretRight />
-                  <a href="#" className="pl-2 hover:underline">
-                    About Us
-                  </a>
-                </li>
-                <li className="mb-2 flex flex-row items-center">
-                  <AiFillCaretRight />
-                  <a href="#" className="pl-2 hover:underline">
-                    Our Services
-                  </a>
-                </li>
-                <li className="mb-2 flex flex-row items-center">
-                  <AiFillCaretRight />
-                  <a href="#" className="pl-2 hover:underline">
-                    Our Team
                   </a>
                 </li>
                 <li className="mb-2 flex flex-row items-center">
@@ -120,7 +73,7 @@ export default function Footer() {
                 </li>
                 <li className="mb-2 flex flex-row items-start justify-start">
                   <TiMessages />
-                  <p className="pl-2 text-sm">safetyfirst@info.com</p>
+                  <p className="pl-2 text-sm">armstac@info.com</p>
                 </li>
               </ul>
               <div className="flex pt-4 space-x-5 justify-start  sm:mt-0">
@@ -205,16 +158,16 @@ export default function Footer() {
           <div className="text-sm text-white sm:text-center dark:text-gray-400">
             © 2023{" "}
             <a href="#" className="hover:underline font-bold text-secondary">
-              Safety First
+            ARMSTAC Security
             </a>{" "}
-            All Rights Reserved.
+             All Rights Reserved.
           </div>
           <div className="text-center mt-4 md:mt-0 flex flex-row justify-center">
             <ul className="flex space-x-10">
               <li>
                 <a
                   className="text-white text-md font-semibold dark:text-primary hover:text-secondary"
-                  href="#"
+                  href=""
                 >
                   Privacy
                 </a>
@@ -222,7 +175,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-white text-md font-semibold dark:text-primary hover:text-secondary"
-                  href="#"
+                  href=""
                 >
                   Terms
                 </a>
@@ -230,7 +183,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-white text-md font-semibold dark:text-primary hover:text-secondary"
-                  href="#"
+                  href=""
                 >
                   FAQs
                 </a>
@@ -238,7 +191,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-white text-md font-semibold dark:text-primary hover:text-secondary"
-                  href="#"
+                  href=""
                 >
                   Help
                 </a>

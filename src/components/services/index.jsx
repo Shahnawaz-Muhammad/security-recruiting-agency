@@ -1,144 +1,83 @@
 import Card from "../service-card";
-import service1 from "../../assets/images/service-1.jpg";
-import service2 from "../../assets/images/service-2.jpg";
-import service3 from "../../assets/images/service-3.jpg";
-import service4 from "../../assets/images/service-4.jpg";
-import service5 from "../../assets/images/service-5.jpg";
-import service6 from "../../assets/images/service-6.jpg";
+import staticSecurityGuards from "../../assets/images/staticSecurityGuards.jpg";
+import vvipSecurity from "../../assets/images/vvipSecurity.jpg";
+import industrialSecurity from "../../assets/images/industrialSecurity.jpg";
+import miningProjectSecurity from "../../assets/images/miningProjectSecurity.jpg";
+import transitSecurity from "../../assets/images/transitSecurity.jpg";
+import remoteSiteSecurity from "../../assets/images/remoteSiteSecurity.jpg";
+import eventManagementProtection from "../../assets/images/eventManagementProtection.jpg";
+import surveyInspection from "../../assets/images/surveyInspection.jpg";
+import monitoring from "../../assets/images/monitoring.jpg";
+import Surveillance from "../../assets/images/Surveillance.jpg";
+import lowProfile from "../../assets/images/lowProfile.jpg";
 
 export default function Services() {
   const cardData = [
     {
-      imageURL: service1,
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-10 h-10 bg-secondary p-2"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
-          />
-        </svg>
-      ),
-      title: "Noteworthy technology",
+      imageURL: staticSecurityGuards,
+      title: "Static Security Guards",
       description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        "Our guards are extensively trained to safeguard premises, assets, and personnel through their formidable presence, effectively deterring and preventing any unlawful or inappropriate activities.",
     },
     {
-      imageURL: service2,
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-10 h-10 bg-secondary p-2"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
-          />
-        </svg>
-      ),
-      title: "Noteworthy technology",
+      imageURL: vvipSecurity,
+      title: "VVIP Security",
       description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        "Our exceptionally trained security personnel offer discreet and professional protection services tailored to high-profile individuals.",
     },
     {
-      imageURL: service3,
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-10 h-10 bg-secondary p-2"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
-          />
-        </svg>
-      ),
-      title: "Noteworthy technology",
+      imageURL: industrialSecurity,
+      title: "Industrial Security",
       description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        "We specialize in tailoring customized security solutions specifically designed for factories, warehouses, and various industrial sites.",
     },
     {
-      imageURL: service4,
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-10 h-10 bg-secondary p-2"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
-          />
-        </svg>
-      ),
-      title: "Noteworthy technology",
+      imageURL: miningProjectSecurity,
+      title: "Mining Project Security",
       description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        "We provide specialized security services tailored for mining projects, encompassing comprehensive risk assessments, crisis management, and supply chain security solutions.",
     },
     {
-      imageURL: service5,
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-10 h-10 bg-secondary p-2"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
-          />
-        </svg>
-      ),
-      title: "Noteworthy technology",
+      imageURL: transitSecurity,
+      title: "Transit Security",
       description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        "Our dedicated teams ensure the vigilant safety of our clients while traveling on the road, shielding them from potential threats.",
     },
     {
-      imageURL: service6,
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-10 h-10 bg-secondary p-2"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
-          />
-        </svg>
-      ),
-      title: "Noteworthy technology",
+      imageURL: remoteSiteSecurity,
+      title: "Remote Site Security",
       description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        "Our team delivers security solutions designed for sites situated in remote or isolated areas.",
+    },
+    {
+      imageURL: eventManagementProtection,
+      title: "Event Management & Protection",
+      description:
+        "We offer comprehensive security solutions for a wide range of events, from large concerts to private gatherings.",
+    },
+    {
+      imageURL: surveyInspection,
+      title: "Survey Inspection Security",
+      description:
+        "We conduct risk and vulnerability assessments, as well as premises inspections, to identify and address any potential weaknesses that may be exploited.",
+    },
+    {
+      imageURL: monitoring,
+      title: "Monitoring & Theft Control Security",
+      description:
+        "We develop comprehensive and strategically aligned safety plans by coordinating resources, personnel, and information.",
+    },
+    {
+      imageURL: Surveillance,
+      title: "Surveillance Services Security",
+      description:
+        "We secure premises, property, and visitors using state-of-the-art tools, all under the supervision of highly trained professionals.",
+    },
+    {
+      imageURL: lowProfile,
+      title: "Low Profile High End Security",
+      description:
+        "We provide discreet and highly effective security services to clients who necessitate a low-profile, virtually undetectable yet robust security presence.",
     },
   ];
 
