@@ -85,7 +85,7 @@ export default function Contact() {
       <div className="py-10 text-center">
         <h2 className="font-bold text-2xl text-secondary">CONTACT US</h2>
         <h4 className="pt-4 font-bold text-4xl text-primary">
-          CONTACT FOR ANY QUERY
+          CONTACT US FOR ANY QUERY
         </h4>
       </div>
 

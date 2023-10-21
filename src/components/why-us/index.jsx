@@ -12,7 +12,7 @@ const WhyUs = () => {
     },
     {
       id: 3,
-      description: "Licensed to operate across. Pakistan ",
+      description: "Licensed to operate across Pakistan ",
     },
     {
       id: 4,
