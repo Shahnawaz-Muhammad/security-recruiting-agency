@@ -10,7 +10,7 @@ const About = () => {
         </div>{" "}
         <div className="px-4 lg:px-12 w-full lg:w-[55%] h-full flex justify-center py-10 ">
           <div className="w-full h-full flex flex-col gap-4">
-            <h2 className="text-secondary text-3xl uppercase font-semibold">
+            <h2 className="text-secondary text-3xl uppercase font-semibold text-center pb-2 border-b-2 border-secondary">
               Who We Are
             </h2>
             {/* <h1 className="text-4xl font-medium text-primary">
@@ -33,7 +33,7 @@ const About = () => {
             <div className="flex flex-col md:flex-row gap-8 w-full mt-10">
               <div className="w-full flex flex-col gap-2">
                 {/* <HiOutlineClipboardDocumentCheck className="text-7xl text-secondary font-light" /> */}
-                <h3 className="uppercase text-xl font-medium text-secondary">
+                <h3 className="uppercase text-2xl font-bold text-secondary">
                   Our Aim
                 </h3>
                 <p className="text-lightGray">
@@ -48,7 +48,7 @@ const About = () => {
               <div className="w-full flex flex-col gap-2">
                 {/* <LiaAwardSolid className="text-7xl text-secondary font-light" /> */}
 
-                <h3 className="uppercase text-xl font-medium text-secondary">
+                <h3 className="uppercase text-2xl font-bold text-secondary">
                   Our Mission
                 </h3>
                 <p className="text-lightGray">
