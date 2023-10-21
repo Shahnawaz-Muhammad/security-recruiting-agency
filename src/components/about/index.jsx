@@ -1,6 +1,6 @@
 // import { LiaAwardSolid } from "react-icons/lia";
 // import { HiOutlineClipboardDocumentCheck } from "react-icons/hi2";
-import aboutImg from "../../assets/images/about.jpg";
+import aboutImg from "../../assets/images/about-bg.jpeg";
 const About = () => {
   return (
     <div className="w-full  flex justify-center  bg-bgLight text-white mx-auto px-8 xl:px-4 font-raleway pt-10 lg:py-20">
