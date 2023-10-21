@@ -7,71 +7,71 @@ import "swiper/css/pagination";
 const Testimonials = () => {
   const testimonialsData = [
     {
-      name: "John Smith",
-      company: "Company ABC",
-      text: "Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolores tempor voluptua ipsum sanctus clita",
-      image:
-        "https://www.nj.com/resizer/zovGSasCaR41h_yUGYHXbVTQW2A=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SJGKVE5UNVESVCW7BBOHKQCZVE.jpg",
+      company: "Congo SPRL Gold Mines"
     },
     {
-      name: "Mrs. Karl",
-      company: "Company XYZ",
-      text: "Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolores tempor voluptua ipsum sanctus clita",
-      image:
-        "https://static.vecteezy.com/system/resources/thumbnails/004/899/680/small/beautiful-blonde-woman-with-makeup-avatar-for-a-beauty-salon-illustration-in-the-cartoon-style-vector.jpg",
+      company: "Security Consultancy in Uganda"
     },
     {
-      name: "Alizbeth Shown",
-      company: "Company ABC",
-      text: "Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolores tempor voluptua ipsum sanctus clita",
-      image:
-        "https://www.nj.com/resizer/zovGSasCaR41h_yUGYHXbVTQW2A=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SJGKVE5UNVESVCW7BBOHKQCZVE.jpg",
+      company: "DHA "
     },
     {
-      name: "Dr. Hassan Ahmed",
-      company: "Company XYZ",
-      text: "Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolores tempor voluptua ipsum sanctus clita",
-      image:
-        "https://static.vecteezy.com/system/resources/thumbnails/004/899/680/small/beautiful-blonde-woman-with-makeup-avatar-for-a-beauty-salon-illustration-in-the-cartoon-style-vector.jpg",
+      company: "Zamindara Paper and Board Mills "
     },
     {
-      name: "Alizbeth Shown",
-      company: "Company ABC",
-      text: "Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolores tempor voluptua ipsum sanctus clita",
-      image:
-        "https://www.nj.com/resizer/zovGSasCaR41h_yUGYHXbVTQW2A=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SJGKVE5UNVESVCW7BBOHKQCZVE.jpg",
+      company: "Various Large Money Changers "
     },
     {
-      name: "Dr. Hassan Ahmed",
-      company: "Company XYZ",
-      text: "Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolores tempor voluptua ipsum sanctus clita",
-      image:
-        "https://static.vecteezy.com/system/resources/thumbnails/004/899/680/small/beautiful-blonde-woman-with-makeup-avatar-for-a-beauty-salon-illustration-in-the-cartoon-style-vector.jpg",
+      company: "Fynk Pharmaceuticals "
+    },
+    {
+      company: "King Embroidery & Knitwear "
+    },
+    {
+      company: "Asmy Dying Mills "
+    },
+    {
+      company: "Sh. Nooruddin & Sons "
+    },
+    {
+      company: "Fantac Furnitures  "
+    },
+    {
+      company: "Fuji Tyres "
+    },
+    {
+      company: "Rado Textile "
+    },
+    {
+      company: "Yousaf Textile "
+    },
+    {
+      company: "Various clients under NDA "
     },
     // Add more testimonials as needed
   ];
 
   return (
     <div className="w-full  flex justify-center  bg-bgLight py-20 text-white mx-auto px-8 xl:px-4">
-      <div className="max-w-screen-xl w-full  flex flex-col gap-10 items-center">
+      <div className=" w-full  flex flex-col gap-10 items-center">
         <div className="flex  flex-col text-center gap-4">
-          <h2 className="font-medium text-xl text-secondary">TESTIMONIAL</h2>
-          <h4 className="font-medium text-4xl text-primary">
-            WHAT OUR CLIENTS SAY
+          <h2 className="font-bold text-2xl text-secondary">OUR VALUED PARTNERS</h2>
+          <h4 className="font-medium text-4xl text-primary uppercase">
+          Cultivating trust, we are the cornerstone of reliability.
           </h4>
         </div>
 
         <Swiper
           slidesPerGroup={1}
-          slidesPerView={3}
-          spaceBetween={40}
+          slidesPerView={4}
+          spaceBetween={30}
           breakpoints={{
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 20,
             },
             767: {
-              slidesPerView: 2,
+              slidesPerView: 3,
               spaceBetween: 10,
             },
             480: {
@@ -84,34 +84,15 @@ const Testimonials = () => {
             delay: 3000,
           }}
           modules={[Pagination, Autoplay, Navigation]}
-          className="mySwiper w-full flex"
+          className="mySwiper w-full flex bg-[#314d7a] h-60 "
         >
           {testimonialsData.map((testimonial, index) => {
             return (
               <SwiperSlide key={index} className=" py-10">
-                <div className="w-full flex flex-col  gap-6">
-                  <div className="w-full min-h-[6rem] shadow-lg flex bg-white border relative">
-                    <p className="text-lightGray text-base  p-3">
-                      {testimonial.text}
-                    </p>
-
-                    <div className="box-arrow shadow-2xl "></div>
-                  </div>
-                  <div className=" w-full h-full flex gap-4 items-center">
-                    <div className="w-20 h-20 rounded-full border bg-white p-3 ">
-                      <img
-                        className="w-full h-full rounded-full border bg-bgLight "
-                        src={testimonial.image}
-                        alt={`${testimonial.name}'s avatar`}
-                      />
-                    </div>
-                    <div className="h-full flex flex-col justify-center">
-                      <p className="text-xl text-secondary ">
-                        {testimonial.name}
-                      </p>
-                      <p className=" text-lightGray">{testimonial.company}</p>
-                    </div>
-                  </div>
+                <div className="w-full flex justify-center items-center ">
+                  <h1 className="w-60 h-32 border-4 border-white rounded-2xl p-10 text-white text-center font-bold text-2xl flex justify-center items-center">
+                    {testimonial.company}
+                  </h1>
                 </div>
               </SwiperSlide>
             );
