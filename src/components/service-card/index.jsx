@@ -7,7 +7,7 @@ export default function Card({ card, index }) {
       <h5 className="mt-1 p-2 h-10 w-full text-center font-extrabold bg-primary text-white rounded-sm">
           {card.title}
         </h5>
-      <p className="mt-2 p-3 font-normal  text-lightGray text-md text-justify">
+      <p className="mt-2 p-3 font-normal text-lightGray text-md text-justify">
           {card.description}
         </p>
     </div>
