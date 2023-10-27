@@ -1,6 +1,6 @@
 // import { LiaAwardSolid } from "react-icons/lia";
 // import { HiOutlineClipboardDocumentCheck } from "react-icons/hi2";
-import aboutImg from "../../assets/images/about.jpg";
+import aboutImg from "../../assets/images/about-bg.jpeg";
 const About = () => {
   return (
     <div className="w-full  flex justify-center  bg-bgLight text-white mx-auto px-8 xl:px-4 font-raleway pt-10 lg:py-20">
@@ -36,7 +36,7 @@ const About = () => {
                 <h3 className="uppercase text-2xl font-bold text-secondary">
                   Our Aim
                 </h3>
-                <p className="text-lightGray">
+                <p className="text-lightGray text-justify">
                   Primary objective of ARMSTAC Security (Pvt.) Ltd. is to be a
                   stable and evolving company in the area of security services
                   with growing satisfaction rate of our clients with our
@@ -51,7 +51,7 @@ const About = () => {
                 <h3 className="uppercase text-2xl font-bold text-secondary">
                   Our Mission
                 </h3>
-                <p className="text-lightGray">
+                <p className="text-lightGray  text-justify">
                   We strive to set new standards in the security services sector
                   by employing highly trained professionals and utilizing
                   cutting-edge technologies to ensure the safety and security of

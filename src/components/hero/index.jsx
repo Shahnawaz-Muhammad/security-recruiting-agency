@@ -1,5 +1,5 @@
 import carouselImg1 from "../../assets/images/carousel-1.jpg";
-import carouselImg2 from "../../assets/images/carousel-2.jpg";
+import carouselImg2 from "../../assets/images/hero-bg.jpeg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import {
